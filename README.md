@@ -61,32 +61,37 @@ within each query.
 ---
 
 ## Analysis Structure
+
 Each SQL file addresses a specific analytical purpose:
 
-ecommerce-sql-analysis/
-├── data/
-│   ├── orders.csv
-│   ├── order_items.csv
-│   ├── products.csv
-│   ├── users.csv
-├── sql/
-│   ├── 01_data_validation.sql
-│   ├── 02_revenue_trends.sql
-│   ├── 03_customer_behavior.sql
-│   ├── 04_product_performance.sql
-│   └── 05_orders_by_country.sql
-├── result_tables/
-│   ├── 02_revenue_trends.csv
-│   ├── 03_customer_behavior.csv
-│   ├── 04_product_performance.csv
-│   └── 05_orders_by_country.csv
-├── powerbi/
-│   ├── ecommerce_dashboard.pbix
-│   └── screenshots/
-│       ├── overview.png
-│       ├── customer_behavior.png
-│       └── product_performance.png
-├── README.md
+- data/
+  - orders.csv
+  - order_items.csv
+  - products.csv
+  - users.csv
+
+- sql/
+  - 01_data_validation.sql
+  - 02_revenue_trends.sql
+  - 03_customer_behavior.sql
+  - 04_product_performance.sql
+  - 05_orders_by_country.sql
+
+- result_tables/
+  - 02_revenue_trends.csv
+  - 03_customer_behavior.csv
+  - 04_product_performance.csv
+  - 05_orders_by_country.csv
+
+- powerbi/
+  - ecommerce_dashboard.pbix
+  - screenshots/
+    - overview.png
+    - customer_behavior.png
+    - product_performance.png
+
+- README.md
+
 
 Queries are written to be modular, readable, and reusable.
 
@@ -127,3 +132,4 @@ in the `powerbi/` directory.
 ## Status
 Complete. This project focuses on SQL-driven business analysis and metric definition,
 with results designed for use in BI dashboards or reporting workflows.
+
